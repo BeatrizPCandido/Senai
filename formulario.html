@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <title>Formilário</title>
+    </head>
+    <body>
+      <h1>Formulário</h1> 
+      <form>
+        <label>Primeiro nome</label>
+        <input type="text" name="name"> <br> <br>
+
+        <label>Sobrenome: </label>
+        <input type="text" name="surname"> <br> <br>
+
+        <label for="age">idade: </label>
+        <input type="number" name="age"> <br> <br>
+
+        <label for="date">Data de nascimento</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="#">Imagem:</label>
+        <input type="file" name="file" id="file"
+        accept="imagem/png, imagem/jpeg"><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+
+      <!-- Checkbox -->
+
+      <form action="#">
+         <h3>Frutas</h3>
+         <input type="checkbox" name="laranja" value="laranja">
+         <label for="Laranja">Laranja</label> <br> <br> 
+
+         <input type="checkbox" name="frutas" value="uva">
+         <label for="Uva">Uva</label> <br> <br>
+
+         <input type="checkbox" name="frutas" value="Manga">
+         <label for="Manga">Manga</label> <br> <br>
+
+         <input type="submit" value="Comprar">
+      </form>
+
+      <!-- Radio -->
+      <form action="#">
+          <h3>Radio buttons</h3>
+          <input type="radio" name="linguagem-favorita" value="HTML" id="html"> 
+          <label for="html">HTML</label> <br> <br>
+
+          <input type="radio" name="linguagem-favorita" value="CSS" id="css">
+          <label for="css">CSS</label> <br> <br>
+
+          <input type="submt" value="Enviar">
+          
+           <!-- Textarea -->
+           <label for=""></label>
+           <textarea rows="5" cols="20" placeholder="Digita um mensagem"></textarea>
+
+      </form>
+    </body>
+</html>
